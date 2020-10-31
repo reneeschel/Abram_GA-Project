@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* ============================================================================== */
+/* ================================= global styles ===============================*/
+/* ============================================================================== */
+
+* {
+    margin: 0; padding: 0; border:0; box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 243, 220);
+
+}
+
+#intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.bg {
+    background-image: url("assets/39750-Abram_Games-bg.jpg");
+    background-color: #f5f0a6;
+    height: 1000px;
+    width: 600px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative;
+    margin: 0 auto;
+
+}
+.myGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.colored-circle img{
+    height: 70px;
+    width: 70px;
+
+}
+
+.grey, .red {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-stretch: ultra-condensed;
+}
+
+.grey {
+color: rgb(88, 84, 84);
+}
+
+.red {
+    color: rgb(221, 41, 41);
+}
+
+
+
+.r {
+    grid-area: 3 / 3/ 3/ 3;
+    margin-left: 15px;
+}
+
+.i {
+    grid-area: 3 / 3/ 3/ 3;
+    margin-left: 60px;
+    margin-top: 14px;
+}
+.e {
+    grid-area: 3 / 3/ 3/ span 2;
+    margin-left: 85px;
+}
+
+.n {
+    grid-area: 3 / 4/ 3/ 4;
+    margin-left: 8px;
+    margin-top: 14px;
+}
+
+.t {
+    grid-area: 3 / 4/ 3/ 4;
+    margin-left: 65px;
+}
+
+.r, .i, .e, .n, .t, .ii, .nn, .ee {
+
+    color: yellow;
+   font-size: 10em;
+}
+
+.rope1 {
+    grid-area: 1 / 1/ span 2 / 1;
+    margin-top: 105px;
+    margin-left: 70px;
+    z-index: 10;
+
+}
+
+.rope2 {
+    grid-area: 1 / 3/ 1/ 3;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+
+.rope3 {
+    grid-area: 4 / 1/ 4 / 1;
+    margin-top: 0px;
+    margin-left: 110px;
+
+}
+.chair {
+    grid-area: 4 / 2/ span 4 / span 2;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.chair img {
+    display: block;
+    height: 400px;
+}
+
+.ii {
+    grid-area: 5 / 3/ span 2 / 3;
+    margin-top: 40px;
+    margin-left: 18px;
+}
+
+.nn {
+    grid-area: 5 / 3/ span 2 / 3;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.ee {
+    grid-area: 5 / 3/ span 2 / span 2;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+
+.circle{
+   /* border: 3px solid red; */
+   grid-area: 1/ 1 / 4 / 3;
+}
+
+.colored-circle {
+    display: block;
+    position: absolute;
+    margin: 207px 147px;
+}
+
+
+.tt {
+    grid-area: 7 / 1 / 7 / 1;
+    margin-top: 55px;
+    margin-left: 85px;
+}
+.oo {
+    grid-area: 7 / 1 / 7 / 1;
+    margin-top: 55px;
+    margin-left: 115px;
+}
+
+.aa {
+    grid-area: 7 / 2/ 7 / 2;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.uu {
+    grid-area: 7 / 2 / 7 / 2;
+    margin-top: 55px;
+    margin-left: 50px;
+
+}
+
+.ss {
+    grid-area: 7 / 2 / 7 / 2;
+    margin-top: 55px;
+    margin-left: 80px;
+}
+
+.tt2 {
+    grid-area: 7 / 2 / 7 / 2;
+    margin-top: 55px;
+    margin-left: 110px;
+}
+
+.rr {
+    grid-area: 7 / 2 / 7 / span 2;
+    margin-top: 55px;
+    margin-left: 138px;
+}
+
+.aa2 {
+    grid-area: 7 / 3/ 7 / 3;
+    margin-top: 55px;
+    margin-left: 24px;
+}
+.ll{
+    grid-area: 7 / 3/ 7 / 3;
+    margin-top: 55px;
+    margin-left: 55px;
+}
+
+.ii2{
+    grid-area: 7 / 3/ 7 / 3;
+    margin-top: 55px;
+    margin-left: 83px;
+}
+.aa3 {
+    grid-area: 7 / 3/ 7 / 3;
+    margin-top: 55px;
+    margin-left: 110px;
+
+}
